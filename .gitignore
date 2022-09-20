@@ -8,3 +8,6 @@ oracle/build.sh
 .idea/
 *.iml
 *.iws
+
+# Docker compose
+**/.env

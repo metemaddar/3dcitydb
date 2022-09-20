@@ -1,0 +1,10 @@
+services:
+  db_3d_city:
+    build:
+      context: .
+    
+    env_file:
+      - .env
+    
+    ports:
+      - 5434:5432
